@@ -62,6 +62,7 @@ button:active {
   padding: .6em .6em;
   background-color: #1968a8;
   margin-bottom: 1em;
+  color: #ffffff
 }
 
 input[type="text"] {
