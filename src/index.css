@@ -1,0 +1,91 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(36, 36, 36, 0.87);
+  background-color: #ebebeb;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1;
+}
+
+button:active {
+  filter: brightness(1.5);
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .centralize {
+  width: 100%;
+  max-width: 500px;
+  padding-bottom: 3em;
+}
+
+.btnExcluir{
+  margin: .1em .5em .5em .1em;
+  border: none;
+  border-radius: .3em;
+  padding: .3em .6em;
+  background-color: #ffffff00;
+}
+
+.btnCopiarContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+  bottom: 0.1em;
+  position: sticky;
+}
+
+.btnCopiarContainer .btnCopiar{
+  border: none;
+  border-radius: .3em;
+  padding: .6em .6em;
+  background-color: #1968a8;
+  margin-bottom: 1em;
+}
+
+input[type="text"] {
+  padding: .3em .5em;
+  border-radius: 0.2em;
+  border: 1px solid #333333;
+  font-size: 1em;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.inputBox{
+  margin-bottom: 2em;
+  display: grid;
+  gap: .6em;
+}
+
+.inputBox button {
+  border: none;
+  border-radius: .3em;
+  padding: .6em .6em;
+  background-color: #e61bba;
+}
